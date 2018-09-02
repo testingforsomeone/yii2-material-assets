@@ -68,8 +68,8 @@ Copy-paste the stylesheet <link> into your <head> before all other stylesheets t
 Default config.
 ```php
 [
-	'siteTitle' = 'Material Dashboard',
-	'sidebarColor' => 'rose', // "purple | azure | green | orange | danger | rose"
+    'siteTitle' = 'Material Dashboard',
+    'sidebarColor' => 'rose', // "purple | azure | green | orange | danger | rose"
     'sidebarBackgroundColor' => 'black', // "black | white"
     'sidebarBackgroundImage' => 'template/material-dashboard/img/sidebar-1.jpg'
 ]
@@ -82,10 +82,10 @@ Default config.
     'assetManager' => [
         'bundles' => [
             'spl\web\MaterialDashboardAsset' => [
-				'siteTitle' = 'Your Site Name',
+		'siteTitle' = 'Your Site Name',
                 'sidebarColor' => 'rose',
                 'sidebarBackgroundColor' => 'black',
-		    	'sidebarBackgroundImage' => 'img url'
+		'sidebarBackgroundImage' => 'img url'
             ],
         ],
     ],
@@ -99,10 +99,10 @@ using bundled assets
     Yii::$container->set(
         MaterialDashboardAsset::className(),
         [
-			'siteTitle' = 'Your Site Name',
-			'sidebarColor' => 'rose',
-		    'sidebarBackgroundColor' => 'black', 
-		    'sidebarBackgroundImage' => 'img url'
+	    'siteTitle' = 'Your Site Name',
+	    'sidebarColor' => 'rose',
+	    'sidebarBackgroundColor' => 'black', 
+	    'sidebarBackgroundImage' => 'img url'
         ]
     );
 ```
