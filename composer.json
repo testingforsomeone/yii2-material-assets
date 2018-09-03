@@ -10,23 +10,14 @@
             "email": "sanpyaelin.dev@gmail.com"
         }
     ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
         "yiisoft/yii2": "~2.0.0"
     },
     "autoload": {
         "psr-4": {
             "spl\\": ""
-        }
-    },
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "https://asset-packagist.org"
-        }
-    ],
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.x-dev"
         }
     }
 }
