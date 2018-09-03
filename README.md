@@ -13,7 +13,7 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer require spl/yii2-material-assets
+php composer require irrahub/yii2-material-assets
 ```
 
 or add
