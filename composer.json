@@ -10,9 +10,6 @@
             "email": "sanpyaelin.dev@gmail.com"
         }
     ],
-    "require": {
-        "yiisoft/yii2": "2.*"
-    },
     "autoload": {
         "psr-4": {
             "spl\\": ""
