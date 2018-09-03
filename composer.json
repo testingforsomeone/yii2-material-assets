@@ -3,6 +3,8 @@
     "description": "Material Ui template for yii2",
     "type": "yii2-extension",
     "version" : "1.0.0",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "keywords": ["yii2","theme","assets","admin","dashboard","ui","template","material","extension"],
     "license": "MIT",
     "authors": [
@@ -17,11 +19,6 @@
     "autoload": {
         "psr-4": {
             "spl\\": ""
-        }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.0.x-dev"
         }
     }
 }
