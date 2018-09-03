@@ -21,13 +21,8 @@
     },
     "repositories": [
         {
-            "type": "composer",
-            "url": "https://asset-packagist.org"
+            "url": "https://github.com/sanpyaelin/yii2-material-assets.git",
+            "type": "git"
         }
     ],
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.0.x-dev"
-        }
-    }
 }
