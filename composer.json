@@ -3,6 +3,7 @@
     "description": "Material Ui assets for yii2",
     "type": "yii2-extension",
     "version" : "1.0.0",
+    "minimum-stability": "dev",
     "keywords": ["yii2","theme","assets","admin","dashboard","ui","template","material","extension"],
     "license": "MIT",
     "authors": [
