@@ -2,7 +2,6 @@
     "name": "spl/yii2-material-assets",
     "description": "Material Ui assets for yii2",
     "type": "yii2-extension",
-    "version" : "1.0.0",
     "keywords": ["yii2","theme","assets","admin","dashboard","ui","template","material","extension"],
     "license": "MIT",
     "authors": [
@@ -19,10 +18,4 @@
             "spl\\": ""
         }
     },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.0.x-dev"
-        }
-    },
-    "minimum-stability": "stable"
 }
