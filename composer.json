@@ -4,6 +4,7 @@
     "type": "yii2-extension",
     "keywords": ["yii2","theme","assets","admin","dashboard","ui","template","material","extension"],
     "license": "MIT",
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": "sanpyaelin",
@@ -19,10 +20,19 @@
             "spl\\": ""
         }
     },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        },
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    },
     "repositories": [
         {
-            "url": "https://github.com/sanpyaelin/yii2-material-assets.git",
-            "type": "git"
+            "type": "composer",
+            "url": "https://asset-packagist.org"
         }
     ]
 }
