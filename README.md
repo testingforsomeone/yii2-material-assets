@@ -13,13 +13,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer require spl/yii2-material-assets
+php composer require spl/yii2-material-assets "dev-master"
 ```
 
 or add
 
 ```
-"spl/yii2-material-assets": "*"
+"spl/yii2-material-assets": "dev-master"
 ```
 
 to the require section of your `composer.json` file.
