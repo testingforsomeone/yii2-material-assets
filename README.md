@@ -35,7 +35,7 @@ Once the extension is installed, you can have a **preview** by reconfiguring the
     'view' => [
         'theme' => [
             'pathMap' => [
-                '@app/views' => '@vendor/spl/yii2-material-template/template/material-dashboard/view'
+                '@app/views' => '@vendor/spl/yii2-material-assets/template/material-dashboard/view'
             ],
         ],
     ],
@@ -48,7 +48,7 @@ Once the extension is installed, you can have a **preview** by reconfiguring the
 Customization
 -------------
 
-- Copy files from `vendor/spl/yii2-material-template/template/material-dashboard/view` 
+- Copy files from `vendor/spl/yii2-material-assets/template/material-dashboard/view` 
 - Remove the custom `view` configuration from your application by deleting the path mappings, if you have made them before.
 
 -----

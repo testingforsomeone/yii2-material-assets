@@ -1,8 +1,8 @@
 {
     "name": "spl/yii2-material-assets",
-    "description": "Material Ui template for yii2",
+    "description": "Material Ui assets for yii2",
     "type": "yii2-extension",
-    "version" : "1.0.0",
+    "version" : "0.0.1",
     "minimum-stability": "dev",
     "prefer-stable": true,
     "keywords": ["yii2","theme","assets","admin","dashboard","ui","template","material","extension"],

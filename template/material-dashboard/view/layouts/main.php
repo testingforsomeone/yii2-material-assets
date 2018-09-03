@@ -15,7 +15,7 @@ use spl\web\MaterialDashboardAsset;
         app\assets\AppAsset::register($this);
     }
 	$bundle = MaterialDashboardAsset::register($this);    
-    $directoryAsset = Yii::$app->assetManager->getPublishedUrl('@vendor/spl/yii2-material-template/template/material-dashboard');
+    $directoryAsset = Yii::$app->assetManager->getPublishedUrl('@vendor/spl/yii2-material-assets/template/material-dashboard');
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
